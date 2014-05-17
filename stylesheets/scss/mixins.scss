@@ -81,17 +81,34 @@ $white: #fff;
 }
 
 
+//======================== SKINS/SHADOWS
+@mixin border-radius($tl, $tr: null, $br: null, $bl: null) {
+  @if $tr == null {
+    -webkit-border-radius: $tl;
+       -moz-border-radius: $tl;
+         -o-border-radius: $tl;
+            border-radius: $tl;
+  } @else {
+    -webkit-border-radius: $tl $tr $br $bl;
+       -moz-border-radius: $tl $tr $br $bl;
+         -o-border-radius: $tl $tr $br $bl;
+            border-radius: $tl $tr $br $bl;
+  }
+}
+
 
 //======================== SKINS/SHADOWS
 @mixin box-shadow($x, $y, $blur, $color) {
   -webkit-box-shadow: $x $y $blur $color;
      -moz-box-shadow: $x $y $blur $color;
+       -o-box-shadow: $x $y $blur $color;
           box-shadow: $x $y $blur $color;
 }
 
 @mixin inset-shadow($x, $y, $blur, $color) {
    -webkit-box-shadow: inset $x $y $blur $color;
       -moz-box-shadow: inset $x $y $blur $color;
+        -o-box-shadow: inset $x $y $blur $color;
            box-shadow: inset $x $y $blur $color;
 }
 
@@ -99,12 +116,14 @@ $white: #fff;
   // blur should be negative pixels
   -webkit-box-shadow: 0 $x $y $blur $color;
      -moz-box-shadow: 0 $x $y $blur $color;
+       -o-box-shadow: 0 $x $y $blur $color;
           box-shadow: 0 $x $y $blur $color;
 }
 
 @mixin no-box-shadow {
   -webkit-box-shadow: none;
      -moz-box-shadow: none;
+       -o-box-shadow: none;
           box-shadow: none;
 }
 

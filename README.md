@@ -14,8 +14,10 @@ A complete list of all files and directories in the boilerplate.
       * base.scss
       * icons.scss
       * mixins.scss
+      * modules.scss
       * skins.scss
       * structures.scss
+      * ui-elements.scss
       * z_responsive.scss
     * src
     * vendor
@@ -32,4 +34,5 @@ A complete list of all files and directories in the boilerplate.
   * index.php
   * package.json
   * robots.txt
+  
   
