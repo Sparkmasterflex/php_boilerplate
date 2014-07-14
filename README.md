@@ -63,7 +63,7 @@ To use the [livereload](https://chrome.google.com/webstore/detail/livereload/jni
 Get the project from [github.com/Sparkmasterflex/php_boilerplate](https://github.com/Sparkmasterflex/php_boilerplate):
 
 <pre>
-  $ git clone git@github.com:Sparkmasterflex/php_boilerplate.git &lt;project-name>
+  $ git clone https://github.com/Sparkmasterflex/php_boilerplate.git &lt;project-name>
   $ cd &lt;project-name>
   $ npm install
 </pre>
