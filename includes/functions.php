@@ -1,4 +1,5 @@
 <?php
+  require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/assets.php";
   /*
    * Contact forms post to this file
    *   => this handles this post from an $.ajax request
@@ -43,6 +44,6 @@
       $message";
 
     // emails form and returns true/false base on success of email
-    return mail("raymondke99@gmail.com", "Contact from ifkeithraymond.com", $body, "From: $email") ? "true" : "false";
+    return mail("fake@fake.com", "Contact from sparkmasterflex.com", $body, "From: $email") ? "true" : "false";
   }
 ?>

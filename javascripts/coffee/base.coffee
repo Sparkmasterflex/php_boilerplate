@@ -1,5 +1,6 @@
 $ ->
   console.log "Sparkmasterflex's PHP Project Boilerplate"
+  console.log "another change"
 
   # for links to open in new tab or window
   $('a[rel=external]').bind 'click', () -> this.target = "_blank"

@@ -10,9 +10,7 @@
 
   <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 
-  <link rel="stylesheet" href="/stylesheets/vendor/reset.css">
-  <link rel="stylesheet" href="/stylesheets/main.css">
-  <script src="/javascripts/vendor/modernizr-2.8.0.min.js"></script>
+  <?= get_stylesheets() ?>
 </head>
 <body>
   <!--[if lt IE 8]>
